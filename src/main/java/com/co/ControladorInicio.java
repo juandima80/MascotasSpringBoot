@@ -105,11 +105,4 @@ public class ControladorInicio {
         model.addAttribute("mascotas", mascotas);
         return "pet_detail";
     }
-    
-//    @GetMapping("/actualizaUsuario/{id_usuario}")
-//    public String actualizaUsuario(@PathVariable("id_usuario") Integer id_usuario) {
-//        usuarioDAO.findById(id_usuario);
-//        return "actualizaUsuario";
-//    }
-   
 }
